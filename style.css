@@ -1,0 +1,78 @@
+@font-face {
+    font-family: MultiPro;
+    src: url("MultiroundPro.otf");
+}
+
+*{
+    font-family: MultiPro;
+}
+
+body{
+    background-color: #0B031B;
+    overflow-x: hidden;
+}
+
+h2{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+}
+
+h4{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+}
+
+.stack, .link{
+    display: flex;
+    justify-content: center;
+}
+
+.link-icon{
+    border-radius: 15px;
+    margin: 15px;
+    width: 50px;
+    height: 50px;
+    transition: all 0.3s ease;
+}
+
+.link-icon:hover{
+    width: 70px;
+    height: 70px;
+    transform: scale(1);
+}
+
+.stack-icon{
+    border-radius: 15px;
+    margin: 15px;
+    width: 60px;
+    height: 60px;
+    transition: all 0.3s ease;
+}
+
+.stack-icon:hover{
+    width: 70px;
+    height: 70px;
+    transform: scale(1);
+}
+
+.img-logo{
+    margin: 50px;
+}
+
+.hr{
+    background-color: white;
+    height: 5px;
+    max-width: 20000px;
+    margin: 20px;
+    border-radius: 100px;
+}
+
+@media screen and (width < 500px){
+    .img-logo{
+        height: 70px;
+    }
+}
