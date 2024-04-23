@@ -24,11 +24,15 @@ body{
     border-radius: 100px;
 }
 
-h4, h2, h3{
+h4, h2, h3, h5{
     color: white;
     display: flex;
     justify-content: center;
     margin: 25px;
+}
+
+h5{
+    margin: 10px;
 }
 
 h3{
@@ -36,11 +40,15 @@ h3{
 }
 
 .btn{
-    margin: 20px;
+    margin: 10px;
 }
 
 @media screen and (width < 500px){
     .img-logo{
         height: 100px;
+    }
+
+    .img-error{
+        height: 300px;
     }
 }
