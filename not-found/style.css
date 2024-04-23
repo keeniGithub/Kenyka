@@ -1,0 +1,29 @@
+@font-face {
+    font-family: MultiPro;
+    src: url("MultiroundPro.otf");
+}
+
+*{
+    font-family: MultiPro;
+}
+
+body{
+    background-color: #0B031B;
+    overflow-x: hidden;
+}
+
+h2{
+    color: white;
+    margin: 15px;
+}
+
+h3{
+    color: rgb(204, 204, 204);
+    margin: 25px;
+}
+
+@media screen and (width < 500px){
+    .img-error{
+        height: 300px;
+    }
+}
