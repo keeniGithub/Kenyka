@@ -71,10 +71,6 @@ h4{
     border-radius: 100px;
 }
 
-.gh{
-    text-align: center;
-}
-
 @media screen and (width < 500px){
     .img-logo{
         height: 70px;
